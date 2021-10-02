@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+    Components
+ */
+
+html{
+    font-size: 16px;
+}
+
+body{
+    background-color: #F7FAFC;
+}
+
+
+.c-label{
+    font-family: Ubuntu, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #1E2958;
+}
+
+.c-input{
+    font-family: Ubuntu, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 17px;
+    color: #8B91AA;
+    background: #F7FAFC;
+    border-radius: 8px;
+    padding: 16px;
+    border: 1px solid #8B91AA;
+    transition: ease-in-out, width .35s ease-in-out;
+    outline: none;
+}
+
+.c-input:focus{
+    border-color: #1E2958;
+}
+
+.c-btn{
+    font-family: Ubuntu, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background: #5F7BF0;
+    border-radius: 8px;
+    padding: 16px;
+    width: 100%;
+}
